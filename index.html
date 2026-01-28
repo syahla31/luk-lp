@@ -139,7 +139,7 @@
                     <button id="luDropdownToggle" onclick="toggleLUDropdown(event)" class="w-full flex items-center justify-between bg-white border border-slate-200 px-3 py-2 rounded-xl shadow-sm hover:border-blue-400 transition-all group">
                         <div class="flex items-center gap-2 min-w-0">
                             <div id="activeSubDot" class="w-2 h-2 rounded-full shadow-inner shrink-0 bg-indigo-600"></div>
-                            <span id="activeSubText" class="text-[9px] font-black text-slate-700 uppercase tracking-widest truncate">LUK BAPETEN</span>
+                            <span id="activeSubText" class="text-[9px] font-black text-slate-700 uppercase tracking-widest truncate">Lembaga Uji Kesesuaian</span>
                         </div>
                         <i data-lucide="chevron-down" class="w-3 h-3 text-slate-300 group-hover:text-blue-500 shrink-0 ml-1"></i>
                     </button>
@@ -182,7 +182,7 @@
                     "Lab-Uji-Radioaktivitas-Lingkungan",
                     "Standardisasi-Radionuklida",
                     "Kalibrasi-Keluaran Sumber-Radioterapi",
-                    "Evaluasi-Peralatan-Pemantau-Dosis-Ekstern"
+                    "Evaluasi-Peralatan-Pemantau-Dosis-Eksterna"
                 ]
             },
             LP: {
@@ -316,7 +316,7 @@
                             address: getVal(['Alamat']), lat, lng, contact: getVal(['Kontak']), 
                             email: getVal(['Email']), scope: rawScope, ta: getVal(['Tenaga Ahli']), 
                             pb: getVal(['Penguji Berkualifikasi']), color: isComplete ? "#f59e0b" : CONFIG.LU.colors[0], 
-                            isPremium: isComplete, type: 'LUK BAPETEN' 
+                            isPremium: isComplete, type: 'Lembaga Uji Kesesuaian'
                         };
                     }).filter(x => x); res();
                 }});
